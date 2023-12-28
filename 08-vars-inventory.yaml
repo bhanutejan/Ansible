@@ -3,5 +3,5 @@
   tasks: 
   - name: check variables
     ansible.builtin.debug:
-      msg: "Hello My name is {{person_name}}, profession is {{profession}} , salary is {{salary}}"
+      msg: "Hello My name is {{Person_name}}, profession is {{Profession}} , salary is {{Salary}}"
       
