@@ -1,0 +1,11 @@
+- name: variables from PLAY level
+  hosts: localhost
+  vars: 
+    person_name: "Teja"
+    profession: "Senior Software engineer"
+    salary: "2Laks"
+  tasks: 
+  - name: check variables
+    ansible.builtin.debug:
+      msg: "Hello My name is {{person_name}}, profession is {{profession}} , salary is {{salary}}"
+      
