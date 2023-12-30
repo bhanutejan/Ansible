@@ -4,9 +4,9 @@
 localhost
 
 [localhost:vars]
-person_name: "Teja"
-profession: "Senior Software engineer"
-salary: "2Laks"
+Person_name: "Teja"
+Profession: "Senior Software engineer"
+Salary: "2Laks"
 
 
 
