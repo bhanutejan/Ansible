@@ -5,10 +5,9 @@
 localhost
 
 [localhost:vars]
-Person_name="Teja"
-Profession="Senior Software engineer"
-Salary="2Laks"
-
+Person_name="Durga Bhavani"
+Profession="Analyst"
+Salary="50k PM"
 
 
 [web]
