@@ -4,7 +4,7 @@
   tasks:
   - name: print persons
     ansible.builtin.package:
-      msg: "Hello {{item}}"
+      msg: "{{item}}"
       state: present
     loop:
     - git
